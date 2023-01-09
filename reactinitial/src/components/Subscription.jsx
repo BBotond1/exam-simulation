@@ -25,11 +25,12 @@ function Subscription() {
       });
 
   return (
-    <div className={subscribed ? "none" : ""}>
+    <div className={subscribed ? "none" : "subscriptionCard"}>
       <h2>Subscribe to our newsletter</h2>
       {sending === false ? (
-        <form className={sending === true ? "none" : ""}>
+        <form className={sending === true ? "none" : "form-items"}>
           <TextField
+            className="input-field"
             onChange={(e) => {
               setInput(e.target.value);
               if (

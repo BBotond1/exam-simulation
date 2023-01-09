@@ -2,6 +2,12 @@ body {
   background-color: white;
 }
 
-App {
-  font-family: arial;
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
 }

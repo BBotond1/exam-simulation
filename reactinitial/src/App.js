@@ -22,8 +22,8 @@ const App = () => {
   }, []);
 
   return (
-    <div>
-      <title>Series Api</title>
+    <div className="mainDiv">
+      <h1 className="title">Series Api</h1>
       {data.length > 0 ? (
         data.map((character, i) => (
           <Character

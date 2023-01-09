@@ -1,8 +1,9 @@
 import React from 'react'
+import "./LoadingMask.css"
 
 function LoadingMask() {
   return (
-    <h1>Loading</h1>
+    <h1 LoadingMask="loading-text">Loading</h1>
   )
 }
 
