@@ -11,7 +11,7 @@ const App = () => {
     if (data.length > 0){
       setTimeout(() => {
         setShowSub(true)
-      }, 1000);
+      }, 10000);
     }
   })
 

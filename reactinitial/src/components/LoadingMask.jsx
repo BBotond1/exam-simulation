@@ -1,10 +1,14 @@
-import React from 'react'
-import "./LoadingMask.css"
+import React from "react";
+import "./LoadingMask.css";
+import { CircularProgress } from "@mui/material";
 
 function LoadingMask() {
   return (
-    <h1 LoadingMask="loading-text">Loading</h1>
-  )
+    <div className="loading-container">
+      <h1>Loading</h1>
+      <CircularProgress />
+    </div>
+  );
 }
 
-export default LoadingMask
+export default LoadingMask;
